@@ -1,6 +1,6 @@
 # Neuropi — README EDD Status
 
-> **Actualizado:** 2026-08-05 (EAS project + Android build en curso)  
+> **Actualizado:** 2026-08-05 (ASC App Information + screenshots + Android AAB en cola)  
 > **Fase:** Launch (post Fase 1 EcoquerAI)  
 > **Mega prompt:** [`docs/EDD_MEGA_PROMPT_NEUROPI_LAUNCH.md`](./docs/EDD_MEGA_PROMPT_NEUROPI_LAUNCH.md)
 
@@ -38,7 +38,7 @@ Ver mega prompt. Estado vivo:
 | `DatosDeSaludSinBackendProd` | hecho (Supabase `hcbqrdxonbezscgzeyyo` + migraciones + buckets + SMTP Resend) |
 | `ApiClinicaNoTieneUrlPublica` | hecho — https://api-production-85ef.up.railway.app/health (`mode: supabase`) |
 | `WebNoEsUsableEnCelular` | hecho — https://ecq-psyco-pain.vercel.app |
-| `TiendasSinFichaNiBinario` | Play app creada (`4974782034946040862`); ASC app Neuropi `6798373885` + bundle `cl.ecoquerai.neuropi`; metadatos parciales; Android AAB en cola; iOS EAS credentials aún requieren modo interactivo |
+| `TiendasSinFichaNiBinario` | Play + ASC apps vivas; ficha iOS 0.1.0 guardada; subtítulo/categoría Health & Fitness (+ Medical); age ratings en curso; screenshots en `docs/store/assets/screenshots`; Android AAB `7fd3e315…` IN_QUEUE; iOS EAS pide login Apple interactivo |
 | `SiguienteCambioRequiereRebuild` | canal/branch `production` creado; `updates.url` apunta al projectId |
 
 ## H. Bloqueos humanos
