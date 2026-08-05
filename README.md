@@ -94,7 +94,8 @@ Ver:
 
 | Superficie | URL |
 |------------|-----|
-| Web (Vercel) | _pendiente login Vercel_ |
+| Repo | https://github.com/ecoquer-ai/ecq-psyco-pain |
+| Web (Vercel) | https://ecq-psyco-pain-gekdpq8tf-ecoquerais-projects.vercel.app (build en corrección) |
 | API (Railway) | https://api-production-85ef.up.railway.app/health |
 | Privacidad | `_web_/privacidad` |
 | Términos | `_web_/terminos` |

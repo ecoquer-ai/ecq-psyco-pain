@@ -22,7 +22,7 @@
     "db:reset": "npx supabase db reset",
     "seed": "npm run seed --workspace=@neuropi/api",
     "brand:rasterize": "node scripts/rasterize-brand.mjs",
-    "web:export": "npm run shared:build && npx expo export --platform web --project-dir apps/mobile"
+    "web:export": "npm run shared:build && npm run export:web --workspace=@neuropi/mobile"
   },
   "engines": {
     "node": ">=20"
