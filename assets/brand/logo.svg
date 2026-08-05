@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Neuropi">
+  <title>Neuropi</title>
+  <defs>
+    <linearGradient id="neuropiWarm" x1="18%" y1="12%" x2="88%" y2="92%">
+      <stop offset="0%" stop-color="#E8A87C"/>
+      <stop offset="55%" stop-color="#D4783A"/>
+      <stop offset="100%" stop-color="#C45C26"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="46" fill="none" stroke="url(#neuropiWarm)" stroke-width="6.5"/>
+  <path
+    d="M28 68 C38 48, 48 82, 60 56 C70 38, 78 50, 84 46"
+    fill="none"
+    stroke="url(#neuropiWarm)"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <circle cx="88" cy="42" r="5" fill="url(#neuropiWarm)"/>
+  <g stroke="url(#neuropiWarm)" stroke-width="2.4" stroke-linecap="round">
+    <line x1="88" y1="30" x2="88" y2="33.5"/>
+    <line x1="88" y1="50.5" x2="88" y2="54"/>
+    <line x1="76" y1="42" x2="79.5" y2="42"/>
+    <line x1="96.5" y1="42" x2="100" y2="42"/>
+    <line x1="79.5" y1="33.5" x2="81.8" y2="35.8"/>
+    <line x1="94.2" y1="48.2" x2="96.5" y2="50.5"/>
+    <line x1="96.5" y1="33.5" x2="94.2" y2="35.8"/>
+    <line x1="81.8" y1="48.2" x2="79.5" y2="50.5"/>
+  </g>
+</svg>

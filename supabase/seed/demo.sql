@@ -1,0 +1,10 @@
+-- Lumbre demo seed (optional)
+--
+-- Demo user rows cannot be inserted here without corresponding auth.users entries.
+-- Create users via Supabase Auth (Dashboard → Authentication, or sign-up flow),
+-- then optionally insert sample pain_logs / assessments referencing those UUIDs.
+--
+-- Example (replace USER_UUID after creating a user in Auth):
+--
+-- insert into public.pain_logs (user_id, intensity_nrs, mood, notes)
+-- values ('USER_UUID', 4, 6, 'Registro de ejemplo — no es dato clínico real');

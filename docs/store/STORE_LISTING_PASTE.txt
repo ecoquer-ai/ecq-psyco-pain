@@ -1,0 +1,17 @@
+=== APP STORE SUBTITLE ===
+Nuevo enfoque al dolor
+
+=== APP STORE PROMO ===
+¿Duele hace meses y los exámenes “salen bien”? Neuropi te ayuda a entender el dolor persistente con calma y ciencia. Tamizaje orientador y psicoeducación. No diagnostica.
+
+=== APP STORE KEYWORDS ===
+dolor,cronico,psicologia,salud,tamizaje,neuroplasticidad,ansiedad,chile,bienestar,phq
+
+=== APP STORE / PLAY WHATS NEW 0.1.0 ===
+Primera versión de Neuropi: tamizaje orientador, psicoeducación del dolor y acompañamiento suave. No diagnostica. Temas y modo neuroinclusivo.
+
+=== PLAY TITLE ===
+Neuropi: enfoque al dolor
+
+=== PLAY SHORT ===
+Tamizaje y psicoeducación para dolor persistente. Orienta; no diagnostica.

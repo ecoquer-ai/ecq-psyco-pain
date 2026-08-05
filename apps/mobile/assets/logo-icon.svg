@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Neuropi icon">
+  <rect width="1024" height="1024" rx="220" fill="#FFF6EE"/>
+  <defs>
+    <linearGradient id="iconWarm" x1="18%" y1="12%" x2="88%" y2="92%">
+      <stop offset="0%" stop-color="#E8A87C"/>
+      <stop offset="55%" stop-color="#D4783A"/>
+      <stop offset="100%" stop-color="#C45C26"/>
+    </linearGradient>
+  </defs>
+  <circle cx="512" cy="512" r="300" fill="none" stroke="url(#iconWarm)" stroke-width="42"/>
+  <path
+    d="M268 575 C355 390, 430 700, 512 470 C575 310, 640 420, 700 390"
+    fill="none"
+    stroke="url(#iconWarm)"
+    stroke-width="46"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <circle cx="742" cy="355" r="34" fill="url(#iconWarm)"/>
+  <g stroke="url(#iconWarm)" stroke-width="16" stroke-linecap="round">
+    <line x1="742" y1="268" x2="742" y2="292"/>
+    <line x1="742" y1="418" x2="742" y2="442"/>
+    <line x1="655" y1="355" x2="679" y2="355"/>
+    <line x1="805" y1="355" x2="829" y2="355"/>
+    <line x1="680" y1="293" x2="697" y2="310"/>
+    <line x1="787" y1="400" x2="804" y2="417"/>
+    <line x1="804" y1="293" x2="787" y2="310"/>
+    <line x1="697" y1="400" x2="680" y2="417"/>
+  </g>
+</svg>

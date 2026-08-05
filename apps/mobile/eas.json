@@ -1,0 +1,51 @@
+{
+  "cli": {
+    "version": ">= 12.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "channel": "development",
+      "node": "20.19.4"
+    },
+    "preview": {
+      "distribution": "internal",
+      "channel": "preview",
+      "node": "20.19.4",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "channel": "production",
+      "autoIncrement": true,
+      "distribution": "store",
+      "node": "20.19.4",
+      "ios": {
+        "resourceClass": "m-medium"
+      },
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "env": {
+        "EXPO_PUBLIC_DEMO_MODE": "false",
+        "EXPO_PUBLIC_API_URL": "https://api-production-85ef.up.railway.app",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://hcbqrdxonbezscgzeyyo.supabase.co"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleTeamId": "R76PGCU7G6",
+        "ascAppId": ""
+      },
+      "android": {
+        "track": "internal",
+        "releaseStatus": "draft"
+      }
+    }
+  }
+}

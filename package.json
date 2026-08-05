@@ -1,0 +1,36 @@
+{
+  "name": "ecq-psyco-pain",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Neuropi — Nuevo enfoque para el dolor. Internal: ecq-psyco-pain",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "mobile": "npm run start --workspace=@neuropi/mobile",
+    "mobile:android": "npm run android --workspace=@neuropi/mobile",
+    "mobile:ios": "npm run ios --workspace=@neuropi/mobile",
+    "api": "npm run dev --workspace=@neuropi/api",
+    "api:nest": "npm run dev --workspace=@neuropi/api-nest",
+    "api:build": "npm run build --workspace=@neuropi/api",
+    "api:nest:build": "npm run build --workspace=@neuropi/api-nest",
+    "shared:build": "npm run build --workspace=@neuropi/shared",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "db:reset": "npx supabase db reset",
+    "seed": "npm run seed --workspace=@neuropi/api",
+    "brand:rasterize": "node scripts/rasterize-brand.mjs",
+    "web:export": "npm run shared:build && npx expo export --platform web --project-dir apps/mobile"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "EcoquerAI",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "sharp": "^0.35.3"
+  }
+}

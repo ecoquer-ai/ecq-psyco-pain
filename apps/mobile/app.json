@@ -1,0 +1,109 @@
+{
+  "expo": {
+    "name": "Neuropi",
+    "slug": "neuropi",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "neuropi",
+    "userInterfaceStyle": "automatic",
+    "owner": "ecoquerais-team",
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF6EE"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "cl.ecoquerai.neuropi",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSUserNotificationsUsageDescription": "Neuropi puede enviarte recordatorios suaves de check-in o prácticas, solo si los activas. Puedes silenciarlos cuando quieras.",
+        "ITSAppUsesNonExemptEncryption": false,
+        "CFBundleDisplayName": "Neuropi"
+      },
+      "privacyManifests": {
+        "NSPrivacyAccessedAPITypes": [
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryUserDefaults",
+            "NSPrivacyAccessedAPITypeReasons": ["CA92.1"]
+          }
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFF6EE",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "package": "cl.ecoquerai.neuropi",
+      "versionCode": 1,
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.VIBRATE",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.WAKE_LOCK"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png",
+      "name": "Neuropi",
+      "shortName": "Neuropi",
+      "themeColor": "#C45C26",
+      "backgroundColor": "#FFF6EE",
+      "description": "Nuevo enfoque para el dolor. Tamizaje orientador y psicoeducación. No diagnostica."
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#FFF6EE"
+        }
+      ],
+      "expo-localization",
+      "expo-secure-store",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/icon.png",
+          "color": "#C45C26",
+          "defaultChannel": "neuropi-default"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "notification": {
+      "icon": "./assets/images/icon.png",
+      "color": "#C45C26",
+      "androidMode": "default",
+      "iosDisplayInForeground": true
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/YOUR_EAS_PROJECT_ID",
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "checkAutomatically": "ON_LOAD"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "YOUR_EAS_PROJECT_ID"
+      },
+      "apiUrl": "http://localhost:3333"
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
