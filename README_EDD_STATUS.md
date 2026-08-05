@@ -1,6 +1,6 @@
 # Neuropi — README EDD Status
 
-> **Actualizado:** 2026-08-05  
+> **Actualizado:** 2026-08-05 (EAS project + Android build en curso)  
 > **Fase:** Launch (post Fase 1 EcoquerAI)  
 > **Mega prompt:** [`docs/EDD_MEGA_PROMPT_NEUROPI_LAUNCH.md`](./docs/EDD_MEGA_PROMPT_NEUROPI_LAUNCH.md)
 
@@ -38,9 +38,19 @@ Ver mega prompt. Estado vivo:
 | `DatosDeSaludSinBackendProd` | hecho (Supabase `hcbqrdxonbezscgzeyyo` + migraciones + buckets + SMTP Resend) |
 | `ApiClinicaNoTieneUrlPublica` | hecho — https://api-production-85ef.up.railway.app/health (`mode: supabase`) |
 | `WebNoEsUsableEnCelular` | hecho — https://ecq-psyco-pain.vercel.app |
-| `TiendasSinFichaNiBinario` | fichas listas; bloqueado: Expo/EAS + ASC + Play |
-| `SiguienteCambioRequiereRebuild` | pendiente EAS projectId real |
+| `TiendasSinFichaNiBinario` | EAS `@ecoquerais-team/neuropi` (`f3a50a82-4788-45a3-9d1b-49f1deed2bdd`); Android production AAB en curso; iOS espera login Apple (cert team listo, falta profile del bundle); fichas listas; ASC/Play login humano |
+| `SiguienteCambioRequiereRebuild` | canal/branch `production` creado; `updates.url` apunta al projectId |
 
 ## H. Bloqueos humanos
 
-Expo/EAS, Vercel, GitHub (`gh` ausente), App Store Connect 2FA, Play Console.
+App Store Connect (iframe Apple ID + 2FA) y Play Console. EAS CLI ya autenticado como `ecoquerai`. iOS credentials del bundle `cl.ecoquerai.neuropi` requieren sesión Apple interactiva o API key `.p8` local.
+
+## I. URLs live
+
+| | |
+|--|--|
+| Web | https://ecq-psyco-pain.vercel.app |
+| API health | https://api-production-85ef.up.railway.app/health |
+| Expo project | https://expo.dev/accounts/ecoquerais-team/projects/neuropi |
+| Android build | https://expo.dev/accounts/ecoquerais-team/projects/neuropi/builds/7fd3e315-8837-4fe2-ba2d-500430cb98b1 |
+| Review user | `review@ecoquerai.cl` (password en `.secrets.local`) |

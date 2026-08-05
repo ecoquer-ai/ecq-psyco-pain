@@ -32,15 +32,15 @@
       "env": {
         "EXPO_PUBLIC_DEMO_MODE": "false",
         "EXPO_PUBLIC_API_URL": "https://api-production-85ef.up.railway.app",
-        "EXPO_PUBLIC_SUPABASE_URL": "https://hcbqrdxonbezscgzeyyo.supabase.co"
+        "EXPO_PUBLIC_SUPABASE_URL": "https://hcbqrdxonbezscgzeyyo.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhjYnFyZHhvbmJlenNjZ3pleXlvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU5MzE5MjIsImV4cCI6MjEwMTUwNzkyMn0.AtjJOSWK9rtzzpRCoyPKRGtZPqDO984x9daKz9-SY30"
       }
     }
   },
   "submit": {
     "production": {
       "ios": {
-        "appleTeamId": "R76PGCU7G6",
-        "ascAppId": ""
+        "appleTeamId": "R76PGCU7G6"
       },
       "android": {
         "track": "internal",

@@ -123,7 +123,7 @@ Evento
 
 El agente **debe pedir** o esperar navegador Cursor:
 
-1. **Expo / EAS** — `eas login` o `EXPO_TOKEN` (hoy: *Not logged in*).
+1. **App Store Connect / Play Console** — login humano (2FA / iframe). EAS CLI ya está en `ecoquerai`; proyecto `@ecoquerais-team/neuropi`.
 2. **Vercel** — `npx vercel login` o `VERCEL_TOKEN` (CLI no instalado / sin sesión).
 3. **GitHub** — `gh` no está; remoto esperado `github.com/Saitamx/ecq-psyco-pain` (mismo patrón que landing). Token o login git.
 4. **App Store Connect** — Apple ID + 2FA (sesión ASC caduca en iframe). Crear app Neuropi si no existe.

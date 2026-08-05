@@ -62,4 +62,4 @@ No vendemos datos. No usamos datos de salud para publicidad.
 
 Neuropi is a wellness/education screening tool, not a medical device and not a diagnostic app. All scores are labeled as orientation only. Crisis copy directs users to Chilean emergency services. Demo mode may be available on web; production store builds use real accounts. Test account: (completar tras crear usuario review).
 
-Login demo (si aplica en el binario de revisión): indicar en notas. Preferible: usuario `review@ecoquerai.cl` + contraseña de revisión.
+Login de revisión (binario store, no demo): `review@ecoquerai.cl` — contraseña en `.secrets.local` (`REVIEW_PASSWORD`). No commitear el secreto.
