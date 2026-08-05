@@ -3,7 +3,7 @@
 **Nombre:** Neuropi  
 **Subtítulo (≤30):** Nuevo enfoque al dolor  
 **Categoría:** Health & Fitness  
-**Edad:** 12+  
+**Edad:** 13+ (ASC questionnaire; 12+ en Vietnam / OS < 26)  
 **Bundle:** `cl.ecoquerai.neuropi`  
 **SKU sugerido:** `neuropi-ios`  
 **Soporte:** ecoquerai@gmail.com  

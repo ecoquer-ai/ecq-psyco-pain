@@ -1,6 +1,6 @@
 # Neuropi — README EDD Status
 
-> **Actualizado:** 2026-08-05 (ASC App Information + screenshots + Android AAB en cola)  
+> **Actualizado:** 2026-08-05 (age 13+ + Content Rights + no medical device; Play gráficos y privacy labels pendientes)  
 > **Fase:** Launch (post Fase 1 EcoquerAI)  
 > **Mega prompt:** [`docs/EDD_MEGA_PROMPT_NEUROPI_LAUNCH.md`](./docs/EDD_MEGA_PROMPT_NEUROPI_LAUNCH.md)
 
@@ -38,7 +38,7 @@ Ver mega prompt. Estado vivo:
 | `DatosDeSaludSinBackendProd` | hecho (Supabase `hcbqrdxonbezscgzeyyo` + migraciones + buckets + SMTP Resend) |
 | `ApiClinicaNoTieneUrlPublica` | hecho — https://api-production-85ef.up.railway.app/health (`mode: supabase`) |
 | `WebNoEsUsableEnCelular` | hecho — https://ecq-psyco-pain.vercel.app |
-| `TiendasSinFichaNiBinario` | Play + ASC apps vivas; ficha iOS 0.1.0 guardada; subtítulo/categoría Health & Fitness (+ Medical); age ratings en curso; screenshots en `docs/store/assets/screenshots`; Android AAB `7fd3e315…` IN_QUEUE; iOS EAS pide login Apple interactivo |
+| `TiendasSinFichaNiBinario` | Play + ASC apps vivas; ficha iOS 0.1.0; subtítulo/categoría Health & Fitness (+ Medical); age **13+** (172 regiones); Content Rights = sin 3rd party; **no** dispositivo médico regulado; screenshots locales listos; Android AAB `7fd3e315…` IN_QUEUE; iOS EAS pide login Apple interactivo; App Privacy URL + nutrition labels en curso; Play gráficos sin subir (file picker nativo) |
 | `SiguienteCambioRequiereRebuild` | canal/branch `production` creado; `updates.url` apunta al projectId |
 
 ## H. Bloqueos humanos
