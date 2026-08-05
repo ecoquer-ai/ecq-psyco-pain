@@ -7,8 +7,9 @@
 **Bundle:** `cl.ecoquerai.neuropi`  
 **SKU sugerido:** `neuropi-ios`  
 **Soporte:** ecoquerai@gmail.com  
-**Privacidad (URL prod):** `https://<VERCEL>/privacidad`  
-**Términos:** `https://<VERCEL>/terminos`  
+**Privacidad (URL prod):** `https://ecq-psyco-pain.vercel.app/privacidad`  
+**Términos:** `https://ecq-psyco-pain.vercel.app/terminos`  
+**Marketing / soporte web:** `https://ecq-psyco-pain.vercel.app`  
 **API:** `https://api-production-85ef.up.railway.app`  
 **Marketing URL (opcional):** `https://www.ecoquerai.cl`
 

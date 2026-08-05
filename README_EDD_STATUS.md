@@ -37,7 +37,7 @@ Ver mega prompt. Estado vivo:
 | `AppSinPermisosNativosDeclarados` | hecho (notificaciones; sin cámara/ubicación/mic) |
 | `DatosDeSaludSinBackendProd` | hecho (Supabase `hcbqrdxonbezscgzeyyo` + migraciones + buckets + SMTP Resend) |
 | `ApiClinicaNoTieneUrlPublica` | hecho — https://api-production-85ef.up.railway.app/health (`mode: supabase`) |
-| `WebNoEsUsableEnCelular` | bloqueado: login Vercel |
+| `WebNoEsUsableEnCelular` | hecho — https://ecq-psyco-pain.vercel.app |
 | `TiendasSinFichaNiBinario` | fichas listas; bloqueado: Expo/EAS + ASC + Play |
 | `SiguienteCambioRequiereRebuild` | pendiente EAS projectId real |
 

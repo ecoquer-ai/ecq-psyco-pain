@@ -5,8 +5,8 @@
 **Categoría:** Salud y fitness  
 **Etiquetas:** Medicina (secundaria solo si Play lo pide; preferir Fitness/Salud educativa)  
 **Correo soporte:** ecoquerai@gmail.com  
-**Sitio:** `https://<WEB>`  
-**Privacidad:** `https://<WEB>/privacidad`  
+**Sitio:** `https://ecq-psyco-pain.vercel.app`  
+**Privacidad:** `https://ecq-psyco-pain.vercel.app/privacidad`  
 **Gráfico de funciones:** `docs/store/assets/feature-graphic.png` (1024×500)
 
 ## Descripción breve (≤80)
