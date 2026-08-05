@@ -38,7 +38,7 @@ Ver mega prompt. Estado vivo:
 | `DatosDeSaludSinBackendProd` | hecho (Supabase `hcbqrdxonbezscgzeyyo` + migraciones + buckets + SMTP Resend) |
 | `ApiClinicaNoTieneUrlPublica` | hecho — https://api-production-85ef.up.railway.app/health (`mode: supabase`) |
 | `WebNoEsUsableEnCelular` | hecho — https://ecq-psyco-pain.vercel.app |
-| `TiendasSinFichaNiBinario` | EAS `@ecoquerais-team/neuropi` (`f3a50a82-4788-45a3-9d1b-49f1deed2bdd`); Android production AAB en curso; iOS espera login Apple (cert team listo, falta profile del bundle); fichas listas; ASC/Play login humano |
+| `TiendasSinFichaNiBinario` | Play app creada (`4974782034946040862`); ASC app Neuropi `6798373885` + bundle `cl.ecoquerai.neuropi`; metadatos parciales; Android AAB en cola; iOS EAS credentials aún requieren modo interactivo |
 | `SiguienteCambioRequiereRebuild` | canal/branch `production` creado; `updates.url` apunta al projectId |
 
 ## H. Bloqueos humanos
